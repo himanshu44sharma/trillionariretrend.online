@@ -16,7 +16,7 @@
   "nav_button": {
     "enable": true,
     "label": "Get Started",
-    "link": "/contact"
+    "link": "https://wa.me/9720164740"
   },
   "params": {
     "contact_form_action": "",
