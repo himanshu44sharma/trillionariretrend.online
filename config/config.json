@@ -1,0 +1,33 @@
+{
+  "site": {
+    "title": "Trillionairetrend",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "60",
+    "logo_height": "58",
+    "logo_text": "Trillionairetrend"
+  },
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+  "nav_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "/contact"
+  },
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Trillionairetrend Online",
+    "copyright": "Copyright © 2024 Trillionairetrend Online"
+  },
+  "metadata": {
+    "meta_author": "Trillionairetrend",
+    "meta_image": "",
+    "meta_description": "Trillionairetrend Online",
+    "meta_title": "Trillionairetrend Online"
+  }
+}

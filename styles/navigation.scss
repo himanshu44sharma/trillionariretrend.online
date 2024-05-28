@@ -1,0 +1,94 @@
+.header {
+  background-color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
+
+// navbar items
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 1.25rem; // equivalent to text-xl
+  font-weight: 600; // equivalent to font-semibold
+  color: #000; // replace with the actual color value for text-dark
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.navbar-nav {
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+#nav-menu {
+  width: 100%;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    max-height: 100%;
+    width: auto;
+  }
+}
+
+.nav-item {
+  @media (min-width: 1024px) {
+    // equivalent to lg: prefix
+    margin-left: 12px; // equivalent to mx-3
+    margin-right: 12px;
+  }
+
+  select:focus {
+    box-shadow: none;
+  }
+}
+
+.nav-link {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: 'YourPrimaryFontFamily', sans-serif; // replace with actual font family
+  font-size: 1rem; // equivalent to text-base
+  font-weight: 700; // equivalent to font-bold
+  color: #000; // replace with the actual color value for text-dark
+  transition: all 0.3s ease;
+
+  @media (min-width: 768px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  &-active {
+    color: #FC9305 !important; // equivalent to text-primary
+  }
+
+  &:hover {
+    color: #FC9305 !important;
+  }
+}

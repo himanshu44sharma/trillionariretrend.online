@@ -1,0 +1,93 @@
+.header {
+  background-color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width: 768px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000;
+}
+.navbar-brand img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    text-align: left;
+  }
+}
+
+#nav-menu {
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  #nav-menu {
+    max-height: 100%;
+    width: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-item {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+.nav-item select:focus {
+  box-shadow: none;
+}
+
+.nav-link {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: "YourPrimaryFontFamily", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  transition: all 0.3s ease;
+}
+@media (min-width: 768px) {
+  .nav-link {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .nav-link {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.nav-link-active {
+  color: #FC9305 !important;
+}
+.nav-link:hover {
+  color: #FC9305 !important;
+}/*# sourceMappingURL=navigation.css.map */
