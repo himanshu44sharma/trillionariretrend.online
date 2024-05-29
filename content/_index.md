@@ -31,6 +31,12 @@ feature:
   - name: "Google Analytics"
     icon: "/images/analytics.png"
     content: "Unlock your website's potential with our expert Google Analytics services, including setup, advanced tracking, and data analysis."
+  - name: "Affiliated Marketing"
+    icon: "/images/aff.jpeg"
+    content: "Unlock new revenue streams by partnering with us through affiliate marketing. Earn commissions by promoting our products and services to your audience."
+  - name: "Appointment Setting"
+    icon: "/images/appointment.jpeg"
+    content: "Streamline your sales process with our professional appointment setting services. Let us help you secure more meetings and close more deals."
 
 # services
 services:
