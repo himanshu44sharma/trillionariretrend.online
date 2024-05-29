@@ -64,11 +64,19 @@ We select themed keywords based on user-intent to solidify rankings based on wha
       enable: true
       label: Check it out
       link: https://wa.me/9720164740
-  
-  - title: "What They Say About Trillionairetrend Online ?"
-    content: "“After cycling through multiple SEO companies and seeing no results, I finally came across SEO. Choosing to work with Onum is hands down one of the best business investment decisions I have ever made.”"
+
+reviews:  
+  - title: "Our Clients"
+    content: "“We are proud to deliver exceptional services to a diverse range of clients across various industries, including technology, healthcare, finance, and retail. Our unwavering commitment to excellence has earned us the trust and loyalty of leading organizations worldwide. Whether it's on-time delivery, customized logistics solutions, or ensuring the highest standards of service, we go the extra mile to meet and exceed our clients' expectations.”"
     images:
-      - "/images/clients/1.jpeg"
+      - "/images/clients/1.png"
+      - "/images/clients/2.png"
+      - "/images/clients/3.png"
+      - "/images/clients/4.png"
+      - "/images/clients/5.png"
+      - "/images/clients/6.png"
+      - "/images/clients/7.png"
+      - "/images/clients/8.png"
     button:
       enable: true
       label: Check it out

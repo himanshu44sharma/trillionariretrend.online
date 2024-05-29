@@ -4,8 +4,8 @@
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "60",
-    "logo_height": "58",
+    "logo_width": "100",
+    "logo_height": "100",
     "logo_text": "Trillionairetrend"
   },
   "settings": {

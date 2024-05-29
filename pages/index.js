@@ -10,7 +10,7 @@ import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
 
 const Home = ({ frontmatter }) => {
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+  const { banner, feature, services, reviews, workflow, call_to_action } = frontmatter;
   const { title } = config.site;
 
   return (
@@ -135,6 +135,61 @@ const Home = ({ frontmatter }) => {
           </section>
         );
       })}
+
+      {/* reviews */}
+      <section
+        key={`review`}
+        className={`section`}
+      >
+        <div className="container">
+          <div className="items-center gap-8 md:grid md:grid-cols-2">
+            {/* Carousel */}
+            <div className={`service-carousel md:order-2`}>
+              <Swiper
+                modules={[Autoplay, Pagination]}
+                pagination={
+                  reviews[0].images.length > 1 ? { clickable: true } : false
+                }
+                autoplay={{
+                  delay: 5000,
+                  disableOnInteraction: false,
+                }}
+                init={reviews[0]?.images > 1 ? false : true}
+              >
+                {/* Slides */}
+                {reviews[0].images.map((slide, index) => (
+                  <SwiperSlide key={index}>
+                    <Image src={slide} alt="" width={600} height={500} />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+
+            {/* Content */}
+            <div
+              className={`service-content mt-5 md:mt-0 md:order-1`}
+            >
+              <h2 className="font-bold leading-[40px]">{reviews[0]?.title}</h2>
+              <p className="mt-4 mb-2" dangerouslySetInnerHTML={{ __html: reviews[0]?.content }}></p>
+              {reviews[0].button.enable && (
+                <Link
+                  href={reviews[0]?.button.link}
+                  className="cta-link inline-flex items-center text-primary"
+                >
+                  {reviews[0]?.button.label}
+                  <Image
+                    className="ml-1"
+                    src="/images/arrow-right.svg"
+                    width={18}
+                    height={14}
+                    alt="arrow"
+                  />
+                </Link>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* workflow */}
       <section className="section pb-0">
