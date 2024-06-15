@@ -7,7 +7,7 @@ Driving sales is what we do best from both organically and inorganically, throug
   image: /images/banner_first.png
   button:
     label: "Contact Us"
-    link: "https://wa.me/9720164740"
+    link: "/contact"
 
 # feature
 feature: 
@@ -50,7 +50,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: https://wa.me/9720164740
+      link: /contact
 
   - title: "Grow Your Business with Our Trillionairetrend Online"
     content: "<b>01. PPC Advertising</b> <br/>
@@ -69,7 +69,7 @@ We select themed keywords based on user-intent to solidify rankings based on wha
     button:
       enable: true
       label: Check it out
-      link: https://wa.me/9720164740
+      link: /contact
 
 reviews:  
   - title: "Our Clients"
@@ -86,7 +86,7 @@ reviews:
     button:
       enable: true
       label: Check it out
-      link: https://wa.me/9720164740
+      link: /contact
 
   # - title: "A company standing different from others"
   #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
@@ -113,5 +113,5 @@ call_to_action:
   button:
     enable: true
     label: "Contact Us"
-    link: "https://wa.me/9720164740"
+    link: "/contact"
 ---
